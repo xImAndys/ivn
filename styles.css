@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+body{
+    background-image: url("./Poze/background.jpg")
+}
+
+#antet {
+    background-color:#008DDA;
+    color:white;
+    text-align:center;
+    padding:5px;
+    width:1020px;
+    height:70px;
+    font-family:Bahnschrift SemiBold;
+    font-size:12px;
+    margin-right: auto; 
+    margin-left: auto;
+}
+
+h1{
+    padding-top:7px;
+    color: #ACE2E1;
+}
+
+#antet1 {
+    background-color:#ACE2E1;
+    text-align:center;
+    padding:5px;
+    width:1020px;
+    margin-right: auto; 
+    margin-left: auto;
+}
+
+#nav {
+    line-height:30px;
+    background-color:#ACE2E1;
+    height:560px;
+    width:140px;
+    float:left;
+    padding:5px; 
+    text-align:center;
+    margin-right: auto; 
+    margin-left: auto;
+
+}
+
+
+#continut {
+    background-color:#41C9E2;
+    padding:10px;
+    font-family:"Poetsen One";
+    width:1010px;
+    height:auto;
+    float:center;
+    margin-right: auto; 
+    margin-left: auto;
+}
+
+font{
+    font-family:"Poetsen One";
+    padding-left:20px;
+}
+ 
+#subsol {
+    background-color:#ACE2E1;
+    color:rgb(0, 162, 255);
+    clear:both;
+    width:1014px;
+    height:40px;
+    margin-right: auto; 
+    margin-left: auto;
+    text-align:center;
+    padding:8px; 
+    padding-top:28px;
+    font-family:"Poetsen One";
+    font-size:14px;
+}
+
+ul#menu {
+    padding: 0;
+}
+
+ul#menu li {
+    display: inline;
+}
+
+img{
+    border:10px groove;
+    border-color: rgb(19, 159, 252);
+}
+
+ul#menu li a {
+    background-color: #41C9E2;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family:"Poetsen One";
+    font-size:14px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+ul#menu li a:hover {
+    background-color: #5C33F6;
+    transition:0.5s;
+}
